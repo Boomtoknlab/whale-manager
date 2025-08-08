@@ -1,20 +1,15 @@
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
 import type { Metadata } from "next"
-import { Inter } from 'next/font/google'
+import { Inter } from "next/font/google"
 import "./globals.css"
+import type React from "react" // Import React
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "$CHONK9K Whale Manager - Professional Solana Whale Tracking",
-  description: "Track $CHONK9K whales in real-time. Get instant alerts, AI-powered insights, and professional-grade analytics for Solana trading.",
-  keywords: "solana, whale tracking, crypto, trading, $CHONK9K, DeFi, analytics",
-  openGraph: {
-    title: "$CHONK9K Whale Manager",
-    description: "Professional Solana whale tracking platform",
-    type: "website",
-  },
+  title: "John.dev - Full Stack Developer",
+  description: "Full stack developer portfolio showcasing projects and skills",
     generator: 'v0.dev'
 }
 
@@ -26,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cn("min-h-screen bg-background font-sans antialiased", inter.className)}>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} disableTransitionOnChange>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           {children}
         </ThemeProvider>
       </body>
