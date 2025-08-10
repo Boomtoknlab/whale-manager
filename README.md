@@ -1,4 +1,4 @@
-
+https://imgur.com/gallery/chonk9k-j8cOVFm
 # 🐋 $CHONK9K Whale Manager - Professional Solana Whale Tracking
 
 <div align="center">
