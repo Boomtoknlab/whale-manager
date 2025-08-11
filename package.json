@@ -12,7 +12,7 @@
     "@aws-sdk/client-rds-data": "latest",
     "@cloudflare/workers-types": "latest",
     "@electric-sql/pglite": "latest",
-    "@hookform/resolvers": "^3.9.1",
+    "@hookform/resolvers": "^5.0.0",
     "@libsql/client": "latest",
     "@libsql/client-wasm": "latest",
     "@neondatabase/serverless": "latest",
