@@ -7,9 +7,10 @@
 **The Ultimate Professional-Grade Whale Tracking Platform for Solana**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
-[![Docker](https://img.shields.io/badge/docker-enabled-blue)](https://www.docker.com/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-4.9-blue)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-15.2.4-black)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-blue)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
+[![Tailwind](https://img.shields.io/badge/Tailwind-3.4.17-38bdf8)](https://tailwindcss.com/)
 
 [🚀 **Production**](https://chonkwhale.boomchainlab.com) • [📚 **Documentation**](https://docs.boomchainlab.com) • [💬 **Discord**](https://discord.gg/okeamah) • [📸 **Gallery**](https://imgur.com/gallery/O1PD4Ry)
 
@@ -196,11 +197,15 @@ Track all whales at chonkwhale.boomchainlab.com
 
 ### **Built With Modern Stack**
 
-- **Backend**: Node.js + TypeScript + Express
-- **Database**: SQLite/MongoDB with Redis caching
-- **Frontend**: Vanilla JS + Chart.js (lightweight & fast)
-- **Real-time**: WebSocket connections
-- **Deployment**: Docker + PM2 + Nginx
+- **Frontend**: Next.js 15.2.4 + React 19 + TypeScript 5
+- **UI Components**: Radix UI + shadcn/ui + Tailwind CSS
+- **Backend**: Next.js API Routes + Express.js
+- **Database**: Multiple options (PostgreSQL, SQLite, PlanetScale, Neon, Turso)
+- **Blockchain**: Solana Web3.js for on-chain data
+- **Real-time**: WebSocket connections (ws)
+- **Authentication**: Passport.js + bcrypt
+- **Payments**: Stripe integration
+- **Deployment**: Vercel-optimized + Docker support
 - **Monitoring**: Built-in health checks and alerts
 
 ### **Performance & Scalability**
@@ -238,7 +243,13 @@ npm install
 # Start development server
 npm run dev
 
-# The server will restart automatically on file changes
+# Build for production
+npm run build
+
+# Start production server
+npm start
+
+# The server will restart automatically on file changes in dev mode
 ```
 
 ### **Adding New Tokens**
@@ -332,10 +343,11 @@ const customAlert = {
 
 ### **☁️ Cloud Deployment**
 
+- **Vercel**: Optimized Next.js deployment (recommended)
 - **AWS EKS**: Kubernetes-ready with Helm charts
 - **Google Cloud Run**: Serverless container deployment
 - **DigitalOcean App Platform**: Simple PaaS deployment
-- **Vercel/Netlify**: Static frontend with API backend
+- **Railway/Render**: Quick Next.js hosting
 
 ### **🖥️ VPS Deployment**
 
@@ -349,12 +361,12 @@ cd whale-manager
 
 ### **📱 Mobile App Ready**
 
-The API is designed for mobile app integration:
+The Next.js API routes are designed for mobile app integration:
 
 ```javascript
 // React Native / Flutter integration example
-const whaleData = await fetch('https://boomchainlab.com/api/v1/whales');
-const realTimeUpdates = new WebSocket('wss://boomchainlab.com');
+const whaleData = await fetch('https://chonkwhale.boomchainlab.com/api/whales');
+const realTimeUpdates = new WebSocket('wss://chonkwhale.boomchainlab.com/api/ws');
 ```
 
 -----
@@ -431,7 +443,7 @@ This project is licensed under the MIT License - see the <LICENSE> file for deta
 
 <div align="center">
 
-**Built with ❤️ by [BoomchainLabs](https://boomchainlab.com)**
+**Built with ❤️ by [Boomchain Labs](https://boomchainlab.com)**
 
 *Revolutionizing crypto analytics, one whale at a time* 🐋
 
