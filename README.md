@@ -1,9 +1,8 @@
-
 # 🐋 $CHONK9K Whale Manager - Professional Solana Whale Tracking
 
 <div align="center">
 
-![CHONK9K Logo](https://via.placeholder.com/200x200/FF6B35/FFFFFF?text=CHONK9K)
+![CHONK9K Logo](https://raw.githubusercontent.com/Boomchainlab/whale-manager/main/logo-200x200.png)
 
 **The Ultimate Professional-Grade Whale Tracking Platform for Solana**
 
@@ -12,7 +11,7 @@
 [![Docker](https://img.shields.io/badge/docker-enabled-blue)](https://www.docker.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.9-blue)](https://www.typescriptlang.org/)
 
-[🚀 **Live Demo**](https://chonkwhale.boomchainlab.com) • [📚 **Documentation**](https://docs.boomchainlab.com) • [💬 **Discord**](https://discord.gg/okeamah)
+[🚀 **Production**](https://chonkwhale.boomchainlab.com) • [📚 **Documentation**](https://docs.boomchainlab.com) • [💬 **Discord**](https://discord.gg/okeamah) • [📸 **Gallery**](https://imgur.com/gallery/O1PD4Ry)
 
 </div>
 
@@ -145,20 +144,51 @@ WEBHOOK_URL=https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_TOKEN
 
 ### 🖥️ **Professional Dashboard**
 
-![Dashboard](https://via.placeholder.com/800x500/1a1a3e/ffffff?text=Professional+Whale+Dashboard)
+<div align="center">
 
-### 📱 **Mobile Responsive**
+![Professional Dashboard](https://raw.githubusercontent.com/Boomchainlab/whale-manager/main/dashboard-desktop.png)
 
-![Mobile](https://via.placeholder.com/300x600/1a1a3e/ffffff?text=Mobile+Optimized)
+*Real-time whale tracking dashboard with advanced analytics and beautiful visualizations*
 
-### 🚨 **Real-Time Alerts**
+</div>
+
+### 📱 **Mobile Responsive Design**
+
+<div align="center">
+
+![Mobile Interface](https://raw.githubusercontent.com/Boomchainlab/whale-manager/main/mobile-responsive.png)
+
+*Optimized mobile experience for tracking whales on the go*
+
+</div>
+
+### 🚨 **Real-Time Discord Alerts**
+
+<div align="center">
+
+![Discord Alerts](https://raw.githubusercontent.com/Boomchainlab/whale-manager/main/discord-alerts.png)
+
+</div>
+
+**Sample Alert:**
 
 ```
 🐋 WHALE ALERT: New whale detected!
 Wallet: 7x8y...9z1a just bought 250K $CHONK9K tokens
+Total Holdings: 1.2M CHONK9K ($45,680 USD)
 This could signal a major pump! 🚀
 Track all whales at chonkwhale.boomchainlab.com
 ```
+
+### 📈 **Advanced Analytics**
+
+<div align="center">
+
+![Analytics Dashboard](https://raw.githubusercontent.com/Boomchainlab/whale-manager/main/analytics-dashboard.png)
+
+*AI-powered insights and predictive analytics for professional traders*
+
+</div>
 
 -----
 
@@ -199,8 +229,8 @@ Track all whales at chonkwhale.boomchainlab.com
 
 ```bash
 # Clone and setup
-git clone https://github.com/BoomchainLabs/chonk9k-whale-manager-deployment.git
-cd chonk9k-whale-manager-deployment
+git clone https://github.com/Boomchainlab/whale-manager.git
+cd whale-manager
 
 # Install dependencies
 npm install
@@ -333,6 +363,14 @@ const realTimeUpdates = new WebSocket('wss://boomchainlab.com');
 
 ### **Built-in Analytics Dashboard**
 
+<div align="center">
+
+![Business Analytics](https://raw.githubusercontent.com/Boomchainlab/whale-manager/main/business-analytics.png)
+
+*Comprehensive business intelligence and revenue tracking dashboard*
+
+</div>
+
 - **User acquisition metrics**
 - **Revenue tracking and projections**
 - **API usage statistics**
@@ -366,12 +404,37 @@ const monthlyMetrics = {
 
 ### **Join Our Community**
 
-- 💬 **[Discord Server](https://discord.gg/comingsoon)** - Real-time support and community
+- 💬 **[Discord Server](https://discord.gg/okeamah)** - Real-time support and community
 - 🐦 **[Twitter](https://twitter.com/Boomchainlab)** - Updates and whale alerts
 - 📧 **[Newsletter](https://boomchainlab.blog/newsletter)** - Weekly market insights
-- 📖 **[Documentation](https://boomchainlabs-docs.vecel.app)** - Complete guides and API docs
+- 📖 **[Documentation](https://boomchainlabs-docs.vercel.app)** - Complete guides and API docs
+- 📸 **[Screenshots & Gallery](https://imgur.com/gallery/O1PD4Ry)** - Visual overview of features
 
 ### **Get Support**
 
 - **Community Support**: Free on Discord and GitHub Issues
-- **Priority Support**: Included with
+- **Priority Support**: Included with Pro and Enterprise plans
+- **Custom Development**: Available for Enterprise clients
+- **24/7 Support**: Enterprise-only feature
+
+### **Contributing**
+
+We welcome contributions from the community! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+-----
+
+## 📜 License
+
+This project is licensed under the MIT License - see the <LICENSE> file for details.
+
+-----
+
+<div align="center">
+
+**Built with ❤️ by [BoomchainLabs](https://boomchainlab.com)**
+
+*Revolutionizing crypto analytics, one whale at a time* 🐋
+
+[![Star on GitHub](https://img.shields.io/github/stars/Boomchainlab/whale-manager.svg?style=social)](https://github.com/Boomchainlab/whale-manager)
+
+</div>
