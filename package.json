@@ -73,7 +73,7 @@
     "date-fns": "4.1.0",
     "drizzle-orm": "latest",
     "drizzle-zod": "latest",
-    "embla-carousel-react": "8.5.1",
+    "embla-carousel-react": "8.6.0",
     "expo-sqlite": "latest",
     "express": "latest",
     "express-session": "latest",
